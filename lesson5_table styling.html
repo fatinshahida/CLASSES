@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Table Styling</title>
+
+	<style>
+		Table, th, tr, td
+		{
+			border: 1px solid red;
+			border-collapse: collapse;
+			padding: 2px;
+		}
+		tr:hover
+		{
+			background-color: deepskyblue;
+		}
+	</style>
+</head>
+<body>
+	<h1 style="text-align: center;">HTML Table Styling</h1>
+
+	<h3 style="text-align: center;">HTML Table - Zebra Stripes</h3>
+	<p>If you add a background color on every other table row, you will get a nice zebra stripes effect.<br>To style every other table row element, use the<a href="html_table_style_zebra.html">:nth-child(even)</a>selector</p>
+
+	<h3 style="text-align: center;">HTML Table - Vertical Stripes</h3>
+	<p>To make vertical zebra stripes, style every other column, instead of every other row.<br>Set the<a href="html_table_style_vertical.html">:nth-child(even)</a> for table data elements</p>
+
+	<h3>Hoverable Table</h3>
+	<p>Use the:hover selector on tr to highlight table rows on mouse over</p>
+	<p>
+		<table style="width: 100%;">
+			<caption>This is basic table</caption>
+			<!-- border: solid, dashed, dotted-->
+			<tr>
+				<th>Name</th> <!--column-->
+				<th>Phone Number</th>
+				<th>Emel</th>
+			</tr>
+			<tr>
+				<td>Fatin Shahida</td>
+				<td>0148291574</td>
+				<td>fatin.norshahida@gmail.com</td>
+			</tr>
+			<tr>
+				<td>Nur Amila</td>
+				<td>0139535654</td>
+				<td>nur_Amila@gmail.com</td>
+			</tr>
+			<tr>
+				<td>Mohd Aiman</td>
+				<td>0129535243</td>
+				<td>mohd_aiman@gmail.com</td>
+			</tr>
+			<tr>
+				<td>Mohd Syafiq</td>
+				<td>0138291543</td>
+				<td>mohd_syafiq@gmail.com</td>
+			</tr>
+		</table>
+	</p>
+
+</body>
+</html>

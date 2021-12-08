@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device=width, initial-scale=1">
+	<title>HTML Table</title>
+	<style>
+		table, th, tr, td
+		{
+			border: 1px solid red;
+			border-collapse: collapse;
+		}
+		th, td
+		{
+			padding: 2px;
+		}
+		th
+		{
+			text-align: left;
+			background-color: cadetblue;
+		}
+		tr
+		{
+			background-color: skyblue;
+		}
+	</style>
+</head>
+<body>
+
+
+	<h1 style="text-align: center;">HTML Table</h1>
+
+	<h3>Basic Table</h3>
+	<table style="width: 100%;">
+		<caption>This is basic Table</caption>
+		<!-- border: solid, dashed, dotted-->
+
+		<tr>
+			<th>Name</th> <!--column-->
+			<th>Phone Number</th>
+			<th>Emel</th>
+		</tr>
+		<tr>
+			<td>Fatin Shahida</td>
+			<td>0148291574</td>
+			<td>fatin.norshahida@gmail.com</td>
+		</tr>
+		<tr>
+			<td>Nur Amila</td>
+			<td>0139535654</td>
+			<td>nur_Amila@gmail.com</td>
+		</tr>
+		<tr>
+			<td>Mohd Aiman</td>
+			<td>0129535243</td>
+			<td>mohd_aiman@gmail.com</td>
+		</tr>
+		<table>
+
+		<h3>HtML Table size</h3>
+		<table style="width: 100%;">
+		<caption>This is customise table size (table column)</caption>
+		<tr>
+			<th style="width: 50%;">Name</th> <!--column-->
+			<th style="width: 20%">Phone Number</th>
+			<th style="width: 30%">Emel</th>
+		</tr>
+		<tr>
+			<td>Fatin Shahida</td>
+			<td>0148291574</td>
+			<td>fatin.norshahida@gmail.com</td>
+		</tr>
+		<tr>
+			<td>Mohd Syafiq</td>
+			<td>0138291543</td>
+			<td>mohd_syafiq@gmail.com</td>
+		</tr>
+		</table>
+
+	<p></p>
+
+		<table style="width:100%">
+			<caption>This is customized table size (row size)</caption>
+			<tr>
+			<th>Name</th> <!--column-->
+			<th>Phone Number</th>
+			<th>Emel</th>
+		</tr>
+		<tr>
+			<td>Fatin Shahida</td>
+			<td>0148291574</td>
+			<td>fatin.norshahida@gmail.com</td>
+		</tr>
+		<tr style="height: 150px;">
+			<td>Mohd Aiman</td>
+			<td>0129535243</td>
+			<td>mohd_aiman@gmail.com</td>
+		</tr>
+		</table>
+	</table>
+
+	<h3>HTML Col Span and Row Span</h3>
+	<table style="width:100%">
+		<caption>This is using colspan (merge multiple column)</caption>
+		<!--use colspan attributes-->
+		<tr>
+			<th colspan="2">Name</th>
+			<th>University</th>
+		</tr>
+		<tr>
+			<td>Nor Shahira</td>
+			<td>Melissa</td>
+			<td>Uitm Machang, Kelantan</td>
+		</tr>
+		<tr>
+			<td>Amin</td>
+			<td>Muiz</td>
+			<td>UPNM</td>
+		</tr>
+	</table>
+
+<p></p>
+
+	<table style="width:100%">
+		<caption>This is using Rowspan (merge multiple role)</caption>
+		<!--use rowspan attributes-->
+		<tr>
+			<th>Name</th>
+			<td>Amin</td>
+		</tr>
+		<tr>
+			<th rowspan="2">Emel</th>
+			<td>Amin@gmail.com</td>
+		</tr>
+		<tr>
+			<td>mohd_aminn@gmail.com</td>
+		</tr>
+	</table>
+
+
+</body>
+</html>

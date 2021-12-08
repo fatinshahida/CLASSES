@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device=width, initial-scale=1">
+	<title>HTML Table Styling - HTML Vertical Stripe</title>
+</head>
+<body>
+	<style>
+		table,th,td,tr
+		{
+			border: 2px solid red;
+			border-collapse: collapse;
+		}
+		th:nth-child(even), td:nth-child(even)
+		{
+			padding: :2px;
+			background-color: skyblue;
+		}
+	</style>
+</head>
+<body>
+
+
+	<h1 style="text-align: center;">HTML Table</h1>
+
+	<table style="width: 100%;">
+		<caption>This is basic Table</caption>
+		<!-- border: solid, dashed, dotted-->
+		<tr>
+			<th>Name</th> <!--column-->
+			<th>Age</th>
+			<th>Phone Number</th>
+		</tr>
+		<tr>
+			<td>Fatin Shahida</td>
+			<td>20</td>
+			<td>0148291574</td>
+		</tr>
+		<tr>
+			<td>Mohd Aiman</td>
+			<td>23</td>
+			<td>0135334792</td>
+		</tr>
+		<tr>
+			<td>Mohd Hakim</td>
+			<td>25</td>
+			<td>01116932574</td>
+		</tr>
+		<table>
+
+</body>
+</html>
