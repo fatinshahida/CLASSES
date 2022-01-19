@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML Form Input Sytle </title>
+</head>
+<body>
+
+	<h1>HTML Form Input Style</h1>
+
+	<!-- <form> input element </form> -->
+
+	<h2>Input type: text</h2>
+	<form>
+		<label form="name">Name</label>
+		<input type="text" name="name" id="name"> <p></p>
+		<label for="stud id">Student ID</label>
+		<input type="text" name="stud_id" id="stud_id">
+	</form>
+
+	<h2>Radio Button</h2>
+	<p>Gender</p>
+	<form>
+		<input type="radio" name="gender" id="male" value="Male">
+		<label for="male">Male</label>
+		<input type="radio" name="gender" id="fermale" value="Fermale">
+		<label for="fermale">Fermale</label>
+	</form>
+
+	<h2>Checkbox</h2>
+	<p>Choose the things need to make chocolate</p>
+	<form>
+		<input type="checkbox" name="ingredient" id="flour" value="Flour">
+		<label for="flour">Flour</label>
+		<input type="checkbox" name="ingredient" id="sugar" value="sugar">
+		<label for="sugar">Sugar</label>
+		<input type="checkbox" name="ingredient" id="salt" value="salt">
+		<label for="salt">Salt</label>
+	</form>
+
+	<h2>Password</h2>
+	<form>
+		<label for="username">Username:</label>
+		<input type="text" name="username" id="username"><br>
+		<label for="pwd">Password:</label>
+		<input type="password" name="pwd" id="pwd" maxlength="8">
+		<input type="hidden" name="role" id="role" value="student">
+	</form>
+
+	<h2>Date</h2>
+	<form>
+		<label for="bday">Birthday:</label>
+		<input type="date" name="bday" id="bday"> <p></p>
+		<label for="birthday">Birthday (date and time):</label>
+		<input type="datetime-local" name="birthdate" id="birthdate"> <p></p>
+		<label for="bulan">Birthday (month and year)</label>
+		<input type="month" name="bulan" id="bulan"> <p></p>
+		<label for="minggu">Week</label>
+		<input type="week" name="minggu" id="minggu">
+	</form>
+
+	<h2>Email and Url</h2>
+	<form>
+		<label for="Email">Please enter your email</label>
+		<input type="email" name="Email" id="Email"> <p></p>
+		<label for="Url">Please insert your personnel website</label>
+		<input type="url" name="Url" id="Url">
+	</form>
+
+	<h2>File</h2>
+	<form>
+		<label for="gambar">Please upload your image file</label>
+		<input type="file" name="gambar" id="gambar">
+	</form>
+
+	<h2>Dropdown</h2>
+	<form>
+		<label for="negeri">Select your State</label>
+		<select id="negeri" name="negeri">
+			<option value="Johor">Johor</option>
+			<option value="Kelantan">Kelantan</option>
+			<option value="Terengganu" selected="Terengganu">Terengganu</option>
+			<option value="Kedah">Kedah</option>
+			<option value="Perak">Perak</option>
+		</select>
+	</form>
+
+	<h2>Text Area</h2>
+	<p>Please decsribe yourself</p>
+	<form>
+		<textarea name="summary" style="width: 70%; height: 200px;">
+		</textarea>
+		<p></p>
+		<textarea name="myself" rows="10" cols="50">
+		</textarea>
+	</form>
+
+</body>
+</html>
